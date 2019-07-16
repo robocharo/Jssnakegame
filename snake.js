@@ -1,5 +1,4 @@
 window.onload = function() {
-}
 
 const SCREEN_COLOR = '#EEEEEE';
 const CANVAS_COLOR = '#FFFFFF';
@@ -226,4 +225,5 @@ const translateXYtoRowCol = (x, y) =>
 putTiles();
 let snake  = addSnake(SNAKE_INITIAL_LENGTH);
 resizeScene(); addFood(); tick();
+}
 
